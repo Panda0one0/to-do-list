@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>    
+    <link rel="icon" type="image/x-icon" href="to-do.svg">
     <title>To Do List</title>
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -8,7 +9,6 @@
     <ul>
       <li><a href="toDoList.html">Home</a></li>
       <li><a href="toDoList.html">Add</a></li>
-      <li><a href="toDoList.html">Save</a></li>
     </ul>
   </nav>
   <body>
@@ -16,20 +16,52 @@
     <form action="">
       <div class="item deco">
       <input type="checkbox" name="item1" id="item1">
-      <label for="item1"><p>item 1</p></label>
+      <label for="item1">item 1
+      </label>
+      <span class="remove">
+      <button>Delete</button>
+      <span class="rename">
+        <button>Edit</button>
+      </span>
+    </span>
       </div>
       <div class="item deco">
       <input type="checkbox" name="item2" id="item2">
       <label for="item2">item 1</label>
+      <span class="remove">
+      <button>Delete</button>
+      <span class="rename">
+        <button>Edit</button>
+      </span>
+    </span>
       </div>
       <div class="item deco">
       <input type="checkbox" name="item3" id="item3">
       <label for="item3">item 1</label>
+      <span class="remove">
+      <button>Delete</button>
+      <span class="rename">
+        <button>Edit</button>
+      </span>
+    </span>
       </div>
       <div class="item deco">
       <input type="checkbox" name="item4" id="item4">
       <label for="item4">item 1</label>
+      <span class="remove">
+      <button>Delete</button>
+      <span class="rename">
+        <button>Edit</button>
+      </span>
+    </span>
       </div>
+      <button class="save">
+        Save
+      </button>
     </form>
+
+    <button class="add">
+        <img class="add-icon" src="add.svg" alt="add item">
+      </button>
   </body>
 </html>
